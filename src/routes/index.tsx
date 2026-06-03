@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Toaster } from "sonner";
-import aiMentor from "@/assets/ai-mentor.asset.json";
 import { BrandHeader } from "@/components/lead-form/BrandHeader";
 import { LeadForm } from "@/components/lead-form/LeadForm";
 
@@ -57,7 +56,7 @@ function Index() {
             <div className="relative glass-panel glow-border rounded-3xl p-2 overflow-hidden">
               <div className="relative rounded-[1.4rem] overflow-hidden">
                 <img
-                  src={aiMentor.url}
+                  src="/ai-mentor.png"
                   alt="Nuaiy — A mentor that never sleeps"
                   className="w-full h-auto object-cover"
                 />
